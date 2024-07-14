@@ -85,6 +85,14 @@ function pass(){
 
 
 }
+        window.onload = function() {
+            const recaptchaFrame = document.querySelector('.g-recaptcha iframe');
+            if (recaptchaFrame) {
+                recaptchaFrame.style.backgroundColor = 'white';
+                recaptchaFrame.style.border = '1px solid black';
+                recaptchaFrame.style.borderRadius = '4px'; // Optional: rounded corners
+            }
+        };
 
 // password Rules
 // function pass_rule(){
