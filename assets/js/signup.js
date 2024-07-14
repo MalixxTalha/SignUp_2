@@ -85,6 +85,7 @@ function pass(){
 
 
 }
+// google recapture customize
         window.onload = function() {
             const recaptchaFrame = document.querySelector('.g-recaptcha iframe');
             if (recaptchaFrame) {
@@ -94,44 +95,4 @@ function pass(){
             }
         };
 
-// password Rules
-// function pass_rule(){
-//     let pass = document.getElementById('suPassword');
-//     let len = document.getElementById('more-char');
-//     let sp_char = document.getElementById('OS-char');
-//     let up_char = document.getElementById('OU-char');
-//     let lo_char = document.getElementById('OL-char');
-//     let num = document.getElementById('O-num');
-    
 
-// if(pass.value.match(/[0-9]/)) {
-//     num.style.color= 'green'
-// }else{
-//     num.style.color= 'red'
-// }
-// // uppercase
-// if(pass.value.match(/[A-Z]/)) {
-//     up_char.style.color= 'green'
-// }else{
-//     up_char.style.color= 'red'
-// }
-// // lowercase
-// if(pass.value.match(/[a-z]/)) {
-//     lo_char.style.color= 'green'
-// }else{
-//     lo_char.style.color= 'red'
-// }
-// // length
-// if(pass.value.length>8) {
-//     len.style.color= 'green'
-// }else{
-//     len.style.color= 'red'
-// }
-// // special character
-// if(pass.value.match(/[!\@\#\$\%\^\&\*\(\)\_\+\=\[\]\{\}\;\:\'\"\,\<\.\>\/\?]/)) {
-//     sp_char.style.color= 'green'
-// }else{
-//     sp_char.style.color= 'red'
-// }
-
-// }
