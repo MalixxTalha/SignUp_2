@@ -147,3 +147,10 @@ button[type="submit"]:hover {
 .signUp-heading p:last-child>a,.agree_para >a,.btn-div + p >a{
     color: black;
 }
+
+/* customize google recapture */
+.rc-anchor-container{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
