@@ -149,7 +149,7 @@ button[type="submit"]:hover {
 }
 
 /* customize google recapture */
-.rc-anchor-container{
+.g-recaptcha{
     background-color: white;
     border: 1px solid black;
     border-radius: 25px;
