@@ -149,11 +149,19 @@ button[type="submit"]:hover {
 }
 
 /* customize google recapture */
-.rc-anchor-light.rc-anchor-normal, .rc-anchor-light.rc-anchor-compact{
-    border: 2px Solid black !important;
-    border-radius: 10px !important;
-}
-.rc-anchor-light{
-    background-color: #ffffff !important;
+.g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    background-color: white; /* Background color */
+    border: 1px solid black; /* Border color */
+    padding: 10px; /* Adjust padding if needed */
+    border-radius: 4px; /* Optional: rounded corners */
+    width: 302px; /* Adjust to fit the scaled reCAPTCHA */
 }
 
+/* Hide the original reCAPTCHA background */
+.g-recaptcha > div {
+    background: none !important;
+}
