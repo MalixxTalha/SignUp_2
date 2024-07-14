@@ -53,9 +53,7 @@ form> div{
 .padding{
     padding: 23px 0px 0px 23px ;
 }
-.padding > :nth-child(2){
-    padding: 13px 125px 0 35px ;
-}
+
 ul{
     gap: 65px;
     padding-left: 21px !important;

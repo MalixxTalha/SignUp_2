@@ -1,52 +1,63 @@
 @media (max-width:1200px) {
-    .padding > :nth-child(2) {
-        padding: 9px 108px 0 28px;
-    }
-    .signUp-heading h3{
+
+
+    .signUp-heading h3 {
         font-size: 20px;
-    margin-bottom: 3px;
+        margin-bottom: 3px;
     }
-    .signUp-heading p{
+
+    .signUp-heading p {
         font-size: 12px;
         margin-bottom: 0px;
     }
-    .correction-list{
+
+    .correction-list {
         font-size: 14px;
     }
-    
+
 }
-@media(max-width:992px){
+
+@media  (max-width:992px) {
+    .signUp {
+        width: 68%;
+        padding: 0px;
+    }
     .signUp-heading h3 {
         font-size: 21px;
         margin-bottom: 2px;
     }
-    .signUp-heading p{
+
+    .signUp-heading p {
         font-size: 12px;
         margin-bottom: 0px;
     }
+
     ul {
         gap: 29px;
-
         font-size: 12px;
     }
+    .un-list ul li {
+        width: 168px;
+    }
     .padding {
-        padding: 19px 0px 0px 19px ;
+        padding-top: 48px;
     }
-    .padding > :nth-child(2) {
-        padding: 1px 125px 0 35px;
 
+}
+
+@media (max-width:768px) {
+    .signUp {
+        width: 67%;
     }
-    .container{
-        width: 50%;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
+
 @media (max-width:576px) {
-    .padding > :nth-child(2) {
-        padding: 13px 23px 0 35px;
-    }
-    
-}
-@media (max-width:435px) {
     .signUp-heading h3 {
         font-size: 19px;
         margin-bottom: 1px;
@@ -56,13 +67,48 @@
         margin-bottom: 0px;
     }
     label {
+        font-size: 12px;
+        padding-bottom: 1px;
+    }
+    input [type="text" ] {
+        border-radius: 5px;
+        height: 26px;
+        font-size: 12px !important;
+        padding: 2px 5px;
+    
+    }
+    small #hide-show {
+        color: #858585;
+        font-size: 12px;
+    }
+    .password-div img {
+        width: 16px ;
+        height: 15px ;
+    }
+}
+
+
+@media (max-width:435px) {
+    .signUp-heading h3 {
+        font-size: 19px;
+        margin-bottom: 1px;
+    }
+
+    .signUp-heading p {
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+
+    label {
         font-size: 11px;
         padding-bottom: 0px;
     }
+
     .pass-icon {
         width: 14px;
         height: 14px;
     }
+
     ul li {
         width: 140px;
     }
