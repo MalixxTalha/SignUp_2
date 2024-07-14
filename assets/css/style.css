@@ -149,8 +149,4 @@ button[type="submit"]:hover {
 }
 
 /* customize google recapture */
-.g-recaptcha{
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 25px;
-}
+
